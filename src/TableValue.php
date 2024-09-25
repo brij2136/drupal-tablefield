@@ -10,13 +10,6 @@ use Drupal\Core\TypedData\TypedData;
 class TableValue extends TypedData {
 
   /**
-   * The computed value.
-   *
-   * @var mixed
-   */
-  protected $value;
-
-  /**
    * {@inheritdoc}
    */
   public function getValue() {
